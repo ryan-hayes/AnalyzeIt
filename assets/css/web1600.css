@@ -1,0 +1,368 @@
+/* Hide mobile-only elements */
+#mobile {
+	display:none;
+}
+body {
+	margin: 0 auto;
+	background: #f2f2f2;
+	font-family: 'Lato', sans-serif;
+	text-align:left;
+}
+#web_header {
+	width: 100%;
+	background: white;
+}
+#web_header_logo {
+	max-width: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 20%;
+}
+#web_subheader {
+	margin-top: 0;
+	background: #77c2e6;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 20%;
+	font-size: 20pt;
+	color: white;
+}
+#web_body {
+	margin-left:20%;
+	margin-right:20%;
+	padding-top: 1%;
+	width: 60%;
+}
+#web_body p {
+	font-size: 11pt;
+	font-weight: bold;
+	color: #5a5c63;
+	line-height: 0.2;
+}
+#web_body_txtSearch {		
+	border-radius: 1px;
+	border: 1px solid #f2f2f2;
+	width: 96%;
+	font-weight: lighter;
+	padding:1% 2% 1% 2%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	float: left;
+	outline: none;
+	color: silver;
+	background: white;
+	display: inline-block;
+	margin-bottom: 1%;
+}
+
+#web_body_attributes {
+	display: inline-block;
+	background: #3672b3;
+	float: left;
+	width: 19%;
+	margin-right: 1%;
+}
+
+#web_body_results {
+	display: inline-block;
+	float: left;
+	width: 54%;
+	background: white;
+	margin-right: 1%;
+	padding-bottom: 2%;
+}
+
+#web_body_recommendations {
+	display: inline-block;
+	float: left;
+	background: white;
+	width: 25%;
+}
+
+#where_to_start {
+	width: 100%;
+	text-align: center;
+}
+
+#where_to_start img {
+	max-width: 30%;
+	height: auto;
+	width: auto;
+	margin-top: 15%;
+}
+
+#where_to_start h2 {
+	color: darkslategray;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#where_to_start p {
+	line-height: 1.5;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#where_to_start input {
+	margin-top: 2%;
+	height: 4%;
+	width: 30%;
+	font-family: 'Lato', sans-serif;
+	background: white;
+	border: solid 1px gray;
+	border-radius: 5px;
+	color: darkslategray;
+	margin-bottom: 25%;
+}
+
+#wts-go {
+		
+}
+#where_to_start input:hover {
+	background: #e6edf5 ;
+}
+
+#usedCarsTable {
+	width:100%;
+
+}
+
+.imgCell {
+	width: 35%;
+}
+.carImg {
+	max-width: 95%;
+	height: auto;
+	width: auto;
+	margin-left: 8%;
+	margin-top: 8%;
+	cursor: pointer;
+}
+.infoCell {
+	padding-left: 8%;
+}
+.bigText {
+	font-size: 20pt;
+}
+.smallText {
+	font-size: 16pt;
+}
+#btnViewVehicle {
+	margin-top: 4%;
+	height: 9%;
+	width: 30%;
+    padding: 8px;
+	background: #ffd520;
+	border: solid 1px #ffd520;
+	border-radius: 5px;
+	color: navy;
+	font-family: 'Lato', sans-serif;
+	cursor: pointer;
+}
+#btnViewVehicle:hover {
+	background: #ffe36d;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accord {
+    background-color: #054fa0;
+    color: #ffd520;
+    cursor: pointer;
+    padding: 18px;
+	font-family: 'Lato', sans-serif;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+	background: #3672b3;
+    padding: 0 18px;
+    display: none;
+}
+
+#auth {
+	text-align: center;
+}
+#auth h2 {
+	margin-top: 8%;
+	text-align: center;
+}
+.swapPanel {
+	margin-top: 2%;
+	height: 6%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 30%;
+	background: white;
+	border: solid 1px gray;
+	border-radius: 5px;
+	color: darkslategray;
+	margin-bottom: 5%;
+	font-family: 'Lato', sans-serif;
+}
+
+#auth input:hover {
+	background: #e6edf5 ;
+}
+
+#auth p {
+	line-height: 1.5;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#btnBack {
+	background: #ffd520;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	cursor: pointer;
+}
+
+.authInput {
+	padding:10px 20px 10px 20px;
+	border-radius: 3px;
+	border: 1px solid #c5c5c5;
+	width: 70%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: #333333;
+	background: white;
+	margin-top: 0%;
+	margin-bottom: 3%;
+
+}
+
+#user_banner {
+	background: #ffd520;
+	text-align: right;
+	padding-left: 3%;
+	padding-right: 0.25%;
+	padding-top: 0.25%;
+	padding-bottom: 0.25%;
+}
+
+#recommendations {
+	background: #ffd520;
+	width: 95%;
+	color: black;
+	font-weight: bold;
+	padding-top: 3%;
+	padding-bottom: 3%;
+    padding-left: 5%;
+    font-size: 14pt;
+}
+
+#rec_tools {
+	background: #fff3c4;
+    padding-left: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#rec_content {
+	background: white;
+}
+
+#cmbFilter {
+	border: none;
+	outline: none;
+	border-radius: 1px;
+	background: white;
+	font-size: 12pt;
+	margin-top:4%;
+	padding: 3%;
+	width: 90%;
+}
+
+#rec_usedCarsTable {
+	width:100%;
+
+}
+
+.rec_imgCell {
+	width: 35%;
+}
+.rec_carImg {
+	max-width: 95%;
+	height: auto;
+	width: auto;
+	margin-left: 8%;
+	margin-top: 8%;
+	cursor: pointer;
+}
+.rec_infoCell {
+	padding-left: 8%;
+}
+.rec_bigText {
+	font-size: 14pt;
+}
+.rec_smallText {
+	font-size: 11pt;
+}
+#rec_btnViewVehicle {
+	margin-top: 2%;
+	height: 4%;
+	width: 30%;
+    padding: 3px;
+	background: #ffd520;
+	border: solid 1px #ffd520;
+	border-radius: 5px;
+	color: navy;
+	font-family: 'Lato', sans-serif;
+	cursor: pointer;
+}
+#rec_btnViewVehicle:hover {
+	background: #ffe36d;
+}
+#admin_web_subheader {
+	margin-top: 0;
+	background: #e6778b;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 20%;
+	font-size: 20pt;
+	color: white;
+}
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+	font-size: 14pt;
+	font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}

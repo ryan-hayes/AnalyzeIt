@@ -1,0 +1,135 @@
+/* General formatting */
+		body {
+			margin: 0 auto;
+			background: #f2f2f2;
+			font-family: Arial;
+			text-align:left;
+		}
+		#header {
+			background: white; 
+			width: 100%; 
+			text-align: center; 
+		}
+		#carmaxlogo {
+			max-width: 40%; 
+			height: auto; 
+			width: auto; 
+			margin: 5%
+		}
+		/* Authentication Elements */
+		#authBox {
+			background: white; 
+			width: 80%; 
+			margin: 0 auto; 
+			margin-top: 8%; 
+			text-align: center;
+		}
+		#txtMyCarMax_title {
+			text-align: center; 
+			color: darkslategray; 
+			padding-top: 10%;
+		}
+		#txtMyCarMax_description {
+			text-align:center; 
+			color: darkslategray;
+		}
+		hr {
+			width: 80%; 
+			margin-top: 8%; 
+			margin-bottom: 8%
+		}
+		.authInput {
+			padding:10px 20px 10px 20px;
+			border-radius: 3px;
+			border: 1px solid #c5c5c5;
+			width: 70%;
+			font-family: Arial,Helvetica,sans-serif;
+			font-size: 1em;
+			color: #333333;
+			background: #f6f6f6;
+
+		}
+		#btnSignIn {
+			background: #c7e4ff;
+		}
+		#btnGo {
+			margin-top: 10%;
+			margin-bottom:10%;
+			background-color: #ffd51d;
+		}
+
+		#usedVehSort {
+			background: #0053a0;
+			margin-left:5%;			
+			margin-right:5%;
+			vertical-align:middle;
+		}
+
+		#usedVehicles {
+			background: white;
+			margin-left:5%;			
+			margin-right:5%;		
+			padding-top:5%;
+		}
+		#usedCarsTable {
+			margin-left:6%;
+			margin-right:6%;
+			width: 88%;
+		}
+		.carImg {
+			width:90%;
+			table-layout:fixed;
+			margin-bottom:4%;
+		}
+		.imgCell {
+			width:35%;
+		}
+		.infoCell {
+			width:45%;
+		}
+		.infoTxt {
+			font-family: Arial;
+			font-size: 16pt;
+			color: #012648;
+		}
+
+		#myReccs {
+			background: white;
+			margin-left:5%;			
+			margin-right:5%;		
+			padding-top:5%;
+			text-align: center;
+		}
+		#cmbFilter {
+			border: none;
+			outline: none;
+			border-radius: 1px;
+			background: white;
+			font-size: 12pt;
+			margin-top:5%;
+			margin-bottom:5%;
+		}
+
+		#lightbulb {
+			margin-top:10%;
+			width:20%;
+		}
+
+		#keywordSrch {
+			margin-left:5%;			
+			margin-right:5%;
+		}
+
+		#user {
+			background: #f7db62; 
+			max-width: 100%; 
+			height: auto; 
+			width: 100%; 
+			text-align:center;
+			margin-top:0;
+			font-size:11pt;
+		}
+
+		#dropimg {
+			width:10%;
+		}
