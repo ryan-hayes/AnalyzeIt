@@ -120,14 +120,14 @@
 		}
 	}
     </script>
-	<title>CM AnalyzeIT Demonstration</title>
+	<title>AnalyzeIT Demonstration</title>
 	</head>
 
 <body>
 
 	<div id="web">
 		<div id="web_header">
-			<a href="index.php"><img id="web_header_logo" src="assets/img/CMlogo.png"/></a>
+			<a href="index.php"><img id="web_header_logo" src="assets/img/logo.png"/></a>
 			<a id="user_banner" style="margin-right:20%;float:right; color: black; padding-top:0.75%;padding-bottom:0.75%;"></a>
 		</div>
 		<div id="web_subheader">
