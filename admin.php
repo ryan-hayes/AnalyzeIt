@@ -51,7 +51,7 @@
 
 	<div id="web">
 		<div id="web_header">
-			<a href="index.php"><img id="web_header_logo" src="assets/img/CMlogo.png"/></a>
+			<a href="index.php"><img id="web_header_logo" src="assets/img/logo.png"/></a>
 		</div>
 		<div id="admin_web_subheader">
 			Administrative Tools
