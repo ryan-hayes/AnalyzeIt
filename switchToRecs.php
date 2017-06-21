@@ -30,8 +30,8 @@ else {
         <!-- Main auth panel -->
         <div id='auth' style='display:none'>
             <div id='btnBack' onclick='switchBackToWelcome();'>Back</div>
-            <h2 id='txtMyCM_title' align='center'>My Account</h2>
-            <p id='txtMyCM_description' style='font-weight: normal;'>Please sign in or register for your account</p>
+            <h2 id='txt_title' align='center'>My Account</h2>
+            <p id='txt_description' style='font-weight: normal;'>Please sign in or register for your account</p>
             <!--Sign in/register buttons-->
             <form>
                 <button class='swapPanel' id='btnSignIn' type='button' onclick='btnFocus(1);' style='background: #3672b3; color: white'>Sign In</button>
