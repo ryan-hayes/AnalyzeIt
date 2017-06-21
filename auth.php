@@ -34,12 +34,12 @@
 <body>
 	<!--Page header-->
 	<div id="header">
-		<img id="CMlogo" src="assets/img/CMlogo.png">
+		<img id="logo" src="assets/img/logo.png">
 	</div>
 	<!--Authentication forms-->
 	<div id="authBox">
-		<h2 id="txtMyCM_title">MyCM</h2>
-		<p id="txtMyCM_description">Please sign in or register for your account</p>
+		<h2 id="txt_title">My Account</h2>
+		<p id="txt_description">Please sign in or register for your account</p>
 		<!--Sign in/register buttons-->
 		<form>
 			<button id="btnSignIn" class="ui-button ui-widget ui-corner-all" type="button" onclick="btnFocus(1);">Sign In</button>
