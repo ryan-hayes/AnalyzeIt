@@ -109,7 +109,7 @@ if (is_numeric($_SESSION['currentUser'])) {
 	echo "<table border=0 id='usedCarsTable' style='margin-top:4%'>";
 	while ($row = mysqli_fetch_array($result)) {
 		// Gets the image from the CloudFront CDN
-		$imgurl = "http://d3nvmyy5qbpxn2.cloudfront.net/img/" . $row['StockID'] . ".jpg";
+		$imgurl = "" . $row['StockID'] . ".jpg";
 		echo "<tr><td class='rec_imgCell' style='width:45%; padding-bottom: 5%; outline: none; border: none; border-radius: 0px'; >";
 		// Put the car image in the cell
 		echo "<img class='rec_carImg' src='" . $imgurl . "' onclick='recordPageView(" . $row['StockID'] . ");' /> </td>";
@@ -141,8 +141,8 @@ else {
         </div>
         <!-- Main auth panel -->
         <div id='auth' style='display:none'>
-            <h2 id='txtMyCM_title' align='center'>MyCM</h2>
-            <p id='txtMyCM_description'>Sign in or create an account to get personalized vehicle recommendations.</p>
+            <h2 id='txt_title' align='center'>My Account</h2>
+            <p id='txt_description'>Sign in or create an account to get personalized vehicle recommendations.</p>
             <!--Sign in/register buttons-->
             <form>
                 <button class='btn btn-warning' id='btnSignIn' type='button' onclick='btnFocus(1);'>Sign In</button>
