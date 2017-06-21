@@ -8,6 +8,7 @@ Technology stack:
 - PHP
 - Codeception (for PHP test cases and automated testing)
 - Bootstrap (for responsiveness and styling)
+- jQuery
 
 Infrastructure (Amazon Web Services):
 - EC2 - for running the application servers (Linux, Apache, PHP)
