@@ -10,7 +10,7 @@
 			width: 100%;
 			text-align: center;
 		}
-		#CMlogo {
+		#logo {
 			max-width: 40%;
 			height: auto;
 			width: auto;
@@ -24,12 +24,12 @@
 			margin-top: 8%;
 			text-align: center;
 		}
-		#txtMyCM_title {
+		#txt_title {
 			text-align: center;
 			color: darkslategray;
 			padding-top: 10%;
 		}
-		#txtMyCM_description {
+		#txt_description {
 			text-align:center;
 			color: darkslategray;
 		}
