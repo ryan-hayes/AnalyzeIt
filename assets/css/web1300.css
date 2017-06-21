@@ -40,11 +40,11 @@ body {
 	color: #5a5c63;
 	line-height: 0.2;
 }
-#web_body_txtSearch {		
+#web_body_txtSearch {
 	border-radius: 4px;
 	border: 1px solid lightgray;
 	width: 100%;
-	font-weight: lighter;	
+	font-weight: lighter;
 	padding:2% 4% 2% 4%;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.6em;
@@ -96,7 +96,7 @@ body {
 	font-weight: normal;
 	color: darkgray;
 	margin-left: 2%;
-	margin-right: 2%;	
+	margin-right: 2%;
 	color: black;
 }
 
@@ -137,7 +137,7 @@ body {
 
 #btnSignIn, #btnRegister {
 	font-size: 12pt;
-	padding: 2% 5% 2% 5%; 
+	padding: 2% 5% 2% 5%;
 }
 
 .imgCell {
@@ -159,12 +159,12 @@ body {
 	color: black;
 }
 .smallText {
-	font-size: 14pt;	
+	font-size: 14pt;
 	color: black;
 }
-.recc-smallText {	
-	font-size: 11pt;	
-	color: black;	
+.recc-smallText {
+	font-size: 11pt;
+	color: black;
 }
 .smallrText {
 	font-size: 12pt;
@@ -236,7 +236,7 @@ div.panel {
 	cursor: pointer;
 }
 
-#txtMyCarMax_description {
+#txtMyCM_description {
 	font-weight: normal;
 }
 

@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CarMax AnalyzeIT Demonstration</title>
+	<title>AnalyzeIT Demonstration</title>
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" href="assets/css/auth.css">
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -34,12 +34,12 @@
 <body>
 	<!--Page header-->
 	<div id="header">
-		<img id="carmaxlogo" src="assets/img/carmaxlogo.png">
+		<img id="CMlogo" src="assets/img/CMlogo.png">
 	</div>
 	<!--Authentication forms-->
 	<div id="authBox">
-		<h2 id="txtMyCarMax_title">MyCarMax</h2>
-		<p id="txtMyCarMax_description">Please sign in or register for your MyCarMax account</p>
+		<h2 id="txtMyCM_title">MyCM</h2>
+		<p id="txtMyCM_description">Please sign in or register for your account</p>
 		<!--Sign in/register buttons-->
 		<form>
 			<button id="btnSignIn" class="ui-button ui-widget ui-corner-all" type="button" onclick="btnFocus(1);">Sign In</button>

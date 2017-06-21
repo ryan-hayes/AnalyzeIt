@@ -1,6 +1,6 @@
 <?php
 // Connect to the database
-$db = mysqli_connect('localhost','root','zyyj2byj.AJ5hs','carmax_project')
+$db = mysqli_connect('','','','', 3306)
 or die('Error connecting to MySQL server.');
 ?>
 

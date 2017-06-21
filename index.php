@@ -107,7 +107,7 @@
 	applyRecs();
 	window.scrollTo(0, 0);
     	}
-    
+
     	document.addEventListener("DOMContentLoaded", switchToRecs);
 
 	// Adjust the site based on the device that is connecting
@@ -120,21 +120,21 @@
 		}
 	}
     </script>
-	<title>CarMax AnalyzeIT Demonstration</title>
+	<title>CM AnalyzeIT Demonstration</title>
 	</head>
 
 <body>
-	
+
 	<div id="web">
 		<div id="web_header">
-			<a href="index.php"><img id="web_header_logo" src="assets/img/carmaxlogo.png"/></a>
+			<a href="index.php"><img id="web_header_logo" src="assets/img/CMlogo.png"/></a>
 			<a id="user_banner" style="margin-right:20%;float:right; color: black; padding-top:0.75%;padding-bottom:0.75%;"></a>
 		</div>
 		<div id="web_subheader">
 			Used Cars for Sale
 		</div>
 		<div id="web_body">
-			<form id="web_body_search">	
+			<form id="web_body_search">
 				<p>NARROW MATCHES BY:<p><br><br>
 				<input id="web_body_txtSearch" type="text" name="keyword" value="Search All Cars by Make, Model, or Keyword" onfocus="if (this.value=='Search All Cars by Make, Model, or Keyword') this.value=''; " onfocusout="if (this.value=='') this.value='Search All Cars by Make, Model, or Keyword'; " onkeyup="applySearch(this.value);" >
 			</form>
@@ -193,5 +193,3 @@
 	}
 	</script>
 </html>
-
- 

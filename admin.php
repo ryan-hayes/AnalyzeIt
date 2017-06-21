@@ -11,7 +11,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-	<title>ADMIN: CarMax AnalyzeIT Demonstration</title>
+	<title>ADMIN: AnalyzeIT Demonstration</title>
 
 	<script>
 	function openCity(evt, cityName) {
@@ -48,10 +48,10 @@
 	</head>
 
 <body>
-	
+
 	<div id="web">
 		<div id="web_header">
-			<a href="index.php"><img id="web_header_logo" src="assets/img/carmaxlogo.png"/></a>
+			<a href="index.php"><img id="web_header_logo" src="assets/img/CMlogo.png"/></a>
 		</div>
 		<div id="admin_web_subheader">
 			Administrative Tools
@@ -79,5 +79,3 @@
 			</div>
 		</div>
 </html>
-
- 

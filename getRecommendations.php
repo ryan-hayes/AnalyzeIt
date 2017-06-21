@@ -5,19 +5,19 @@ session_start();
 // If the session exists...
 if (is_numeric($_SESSION['currentUser'])) {
 	// Set global variables for recommendations
-	$user_id = $_SESSION['currentUser']; 
+	$user_id = $_SESSION['currentUser'];
 	$last_name = "";
 	$first_name = "";
 	$num_vehicles = 0;
 	$ext_color = ""; //
 	$int_color = ""; //
-	$avg_miles = 0; 
+	$avg_miles = 0;
 	$avg_price = 0;
-	$avg_size = 0; 
+	$avg_size = 0;
 	//$pref_brand = "";
 	$pref_year = 0;
 	// Connection string to database
-	$db = mysqli_connect('cm-database.czvehxkx0tve.us-west-2.rds.amazonaws.com','hayes1rp','carmaxroot','carmaxDB', 3306)
+	$db = mysqli_connect('','','','', 3306)
 	or die('Error connecting to MySQL server.');
 	// STEP 1 - Get the basic information
 	$query = "SELECT LastName, FirstName FROM Customer WHERE " . $user_id . " = CustomerID";
@@ -74,35 +74,35 @@ if (is_numeric($_SESSION['currentUser'])) {
 	}
 	// STEP 7 - Get some recommendations
 	$query = "SELECT * FROM Vehicle WHERE ColorExt LIKE '" . $ext_color . "' AND
-		ColorInt LIKE '" . $int_color . "' 
+		ColorInt LIKE '" . $int_color . "'
 
 		AND
-		((Mileage > ('" . $avg_miles ."' - 20000)) AND  
-		(Mileage < ('" . $avg_miles ."' + 20000))) 
+		((Mileage > ('" . $avg_miles ."' - 20000)) AND
+		(Mileage < ('" . $avg_miles ."' + 20000)))
 
 		AND
-		((Price > ('" . $avg_price ."' - 10000)) AND  
-		(Price < ('" . $avg_price ."' + 10000))) 
+		((Price > ('" . $avg_price ."' - 10000)) AND
+		(Price < ('" . $avg_price ."' + 10000)))
 
 		AND
-		((Engine > ('" . $avg_size ."' - 2)) AND  
+		((Engine > ('" . $avg_size ."' - 2)) AND
 		(Engine < ('" . $avg_size ."' + 2)))
 
-		AND 
-		ModelYr >= '" . $pref_year . "' ORDER BY RAND() LIMIT 10"; 
+		AND
+		ModelYr >= '" . $pref_year . "' ORDER BY RAND() LIMIT 10";
 	mysqli_query($db, $query) or die('Error querying database.');
 	$result = mysqli_query($db, $query);
 	// STEP 8 - Print them out to the screen
 	setlocale(LC_MONETARY,"en_US");
 	echo "<div class='container' style='width:100%'>
-  		<button type='button' class='btn btn-basic' data-toggle='collapse' data-target='#demo' 
+  		<button type='button' class='btn btn-basic' data-toggle='collapse' data-target='#demo'
 			style='background:#fdde58; color: black; font-size: 14pt; width: 100%; margin-left:0%'>Recommendations</button>
   		<div id='demo' class='collapse'>
-   			 <br>Based on the vehicles you've viewed, we found some you might be interested in.<br>" . 
-   			 "Exterior Color: <b>" . $ext_color . "</b><br>" . 
-   			 "Interior Color: <b>" . $int_color . "</b><br>" . 
-   			 "Mileage: <b>" . number_format($avg_miles) . "</b><br>" . 
-   			 "Price: <b>$" . number_format($avg_price,2) . "</b><br>" . 
+   			 <br>Based on the vehicles you've viewed, we found some you might be interested in.<br>" .
+   			 "Exterior Color: <b>" . $ext_color . "</b><br>" .
+   			 "Interior Color: <b>" . $int_color . "</b><br>" .
+   			 "Mileage: <b>" . number_format($avg_miles) . "</b><br>" .
+   			 "Price: <b>$" . number_format($avg_price,2) . "</b><br>" .
    			 "Size: <b>" . $avg_size . "</b><br>
   		</div>
 		</div>";
@@ -136,13 +136,13 @@ else {
         <div id='where_to_start'>
             <img id='wts-lightbulb' src='assets/img/lightbulb.png'>
             <h2>Where to Start?</h2>
-            <p>Sign in to MyCarMax or create an account to get personalized vehicle recommendations.</p>
+            <p>Sign in or create an account to get personalized vehicle recommendations.</p>
             <input id='wts-go' class='btn btn-warning' type='button' value='Go' onclick='switchToAuthPanel();' />
         </div>
         <!-- Main auth panel -->
         <div id='auth' style='display:none'>
-            <h2 id='txtMyCarMax_title' align='center'>MyCarMax</h2>
-            <p id='txtMyCarMax_description'>Sign in to MyCarMax or create an account to get personalized vehicle recommendations.</p>
+            <h2 id='txtMyCM_title' align='center'>MyCM</h2>
+            <p id='txtMyCM_description'>Sign in or create an account to get personalized vehicle recommendations.</p>
             <!--Sign in/register buttons-->
             <form>
                 <button class='btn btn-warning' id='btnSignIn' type='button' onclick='btnFocus(1);'>Sign In</button>

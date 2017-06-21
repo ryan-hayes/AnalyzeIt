@@ -1,6 +1,6 @@
 <?php
 // Connects to the database
-$db = mysqli_connect('cm-database.czvehxkx0tve.us-west-2.rds.amazonaws.com','hayes1rp','carmaxroot','carmaxDB', 3306)
+$db = mysqli_connect('','','','', 3306)
 or die('Error connecting to MySQL server.');
 ?>
 

@@ -6,36 +6,36 @@
 			text-align:left;
 		}
 		#header {
-			background: white; 
-			width: 100%; 
-			text-align: center; 
+			background: white;
+			width: 100%;
+			text-align: center;
 		}
-		#carmaxlogo {
-			max-width: 40%; 
-			height: auto; 
-			width: auto; 
+		#CMlogo {
+			max-width: 40%;
+			height: auto;
+			width: auto;
 			margin: 5%
 		}
 		/* Authentication Elements */
 		#authBox {
-			background: white; 
-			width: 80%; 
-			margin: 0 auto; 
-			margin-top: 8%; 
+			background: white;
+			width: 80%;
+			margin: 0 auto;
+			margin-top: 8%;
 			text-align: center;
 		}
-		#txtMyCarMax_title {
-			text-align: center; 
-			color: darkslategray; 
+		#txtMyCM_title {
+			text-align: center;
+			color: darkslategray;
 			padding-top: 10%;
 		}
-		#txtMyCarMax_description {
-			text-align:center; 
+		#txtMyCM_description {
+			text-align:center;
 			color: darkslategray;
 		}
 		hr {
-			width: 80%; 
-			margin-top: 8%; 
+			width: 80%;
+			margin-top: 8%;
 			margin-bottom: 8%
 		}
 		.authInput {
@@ -60,15 +60,15 @@
 
 		#usedVehSort {
 			background: #0053a0;
-			margin-left:5%;			
+			margin-left:5%;
 			margin-right:5%;
 			vertical-align:middle;
 		}
 
 		#usedVehicles {
 			background: white;
-			margin-left:5%;			
-			margin-right:5%;		
+			margin-left:5%;
+			margin-right:5%;
 			padding-top:5%;
 		}
 		#usedCarsTable {
@@ -95,8 +95,8 @@
 
 		#myReccs {
 			background: white;
-			margin-left:5%;			
-			margin-right:5%;		
+			margin-left:5%;
+			margin-right:5%;
 			padding-top:5%;
 			text-align: center;
 		}
@@ -116,15 +116,15 @@
 		}
 
 		#keywordSrch {
-			margin-left:5%;			
+			margin-left:5%;
 			margin-right:5%;
 		}
 
 		#user {
-			background: #f7db62; 
-			max-width: 100%; 
-			height: auto; 
-			width: 100%; 
+			background: #f7db62;
+			max-width: 100%;
+			height: auto;
+			width: 100%;
 			text-align:center;
 			margin-top:0;
 			font-size:11pt;

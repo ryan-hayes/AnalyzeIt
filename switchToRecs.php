@@ -4,7 +4,7 @@ session_start();
 // if the session exists...
 if (is_numeric($_SESSION['currentUser'])) {
     // Connects to the database
-$db = mysqli_connect('cm-database.czvehxkx0tve.us-west-2.rds.amazonaws.com','hayes1rp','carmaxroot','carmaxDB', 3306)
+    $db = mysqli_connect('','','','', 3306)
     or die('Error connecting to MySQL server.');
     // Pull current user from the database
     $query = "SELECT CustomerID, LastName, FirstName FROM Customer WHERE CustomerID='" . $_SESSION['currentUser'] . "'";
@@ -24,14 +24,14 @@ else {
         <div id='where_to_start'>
             <img src='assets/img/lightbulb.png'>
             <h2>Where to Start?</h2>
-            <p>Sign in to MyCarMax or create an account to get personalized vehicle recommendations</p>
+            <p>Sign in or create an account to get personalized vehicle recommendations</p>
             <input id='wts-button' class='swapPanel' type='button' value='Go' onclick='switchToAuthPanel();' />
         </div>
         <!-- Main auth panel -->
         <div id='auth' style='display:none'>
             <div id='btnBack' onclick='switchBackToWelcome();'>Back</div>
-            <h2 id='txtMyCarMax_title' align='center'>MyCarMax</h2>
-            <p id='txtMyCarMax_description' style='font-weight: normal;'>Please sign in or register for your MyCarMax account</p>
+            <h2 id='txtMyCM_title' align='center'>My Account</h2>
+            <p id='txtMyCM_description' style='font-weight: normal;'>Please sign in or register for your account</p>
             <!--Sign in/register buttons-->
             <form>
                 <button class='swapPanel' id='btnSignIn' type='button' onclick='btnFocus(1);' style='background: #3672b3; color: white'>Sign In</button>
